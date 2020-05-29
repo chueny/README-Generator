@@ -18,7 +18,6 @@ inquirer
         type: "input",
         message: "Do you have a table of contents?",
         name: "table"
-    
     },
     {
         type: "input",
@@ -63,75 +62,20 @@ inquirer
     }
 ]).then(function(response){
 
-    fs.writeFile("README.md", ("# " + response.title) +'\n \n' , function(err){
+    // let stream =fs.createWriteStream("README.md", {flags:'a'});
 
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md", ("# Description" + '\n'+ response.description) + '\n \n', function(err){
+    let stream =fs.createWriteStream("README.md");
 
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md",("# Table of Contents" + '\n'+ response.table) + '\n\n', function(err){
-
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md",("# Installation" +'\n'+ response.installation) + '\n\n', function(err){
-
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md",("# Usuage" +'\n'+ response.usuage) + '\n\n', function(err){
-
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md",("# Licensing" + '\n'+ response.license) + '\n\n', function(err){
-
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md",("# Contributors" + '\n'+ response.contributing) + '\n\n', function(err){
-
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md",("# Tests" + '\n'+ response.test) + '\n\n', function(err){
-
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md",("# GitHub Profile" + '\n'+ response.profile) + '\n\n', function(err){
-
-        if (err){
-            console.log(err);
-        }
-            
-    }),
-    fs.appendFile("README.md",("# GitHub Email" + '\n'+ response.email) + '\n\n', function(err){
-
-        if (err){
-            console.log(err);
-        }
-            
-    });
+    stream.write("# " + response.title +'\n \n'); 
+    stream.write("# Description" + '\n'+ response.description + '\n \n'); 
+    stream.write("# Table of Contents" + '\n'+ response.table + '\n\n'); 
+    stream.write("# Installation" +'\n'+ response.installation+ '\n\n'); 
+    stream.write("# Usuage" +'\n'+ response.usuage + '\n\n'); 
+    stream.write("# Licensing" + '\n'+ response.license + '\n\n');
+    stream.write("# Contributors" + '\n'+ response.contributing + '\n\n');
+    stream.write("# Tests" + '\n'+ response.tests + '\n\n'); 
+    stream.write("# GitHub Profile" + '\n'+ response.profile + '\n\n');
+    stream.write("# GitHub Email" + '\n'+ response.email + '\n\n'); 
+    stream.end();
 });
 
