@@ -1,29 +1,24 @@
 # README Generator
  
 # Description
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
+This project uses command line interface to generate a README for a gitHub project.  When this application is run on the terminal, it prompts the user for what type of information to include in their README file, such tittle, description, installation, usuage, licensing, badge, and gitHub username and email.  
  
-# Table of Contents
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
-
 # Installation
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
+You will need to run npm install.  
 
 # Usuage
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
+To use this program, copy or clone this git project and run on your computer. Answer the prompts and it will generate a README for your gitHub. 
+
 
 # Licensing
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Contributors
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
 
-# Tests
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
+# Contributing  
+This application may be used to generate a README for your gitHub.  Feel free to modify for your own purposes.
 
-# GitHub Profile
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
 
-# GitHub Email
-What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type 
+# Questions 
+If you have any questions about this age, contact me here:<a href="https://github.com/chueny"> Github Profile: chueny</a>
 
+<img src="https://avatars1.githubusercontent.com/u/17972802?v=4" alt=Github profile picture width=150>
