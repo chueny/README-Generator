@@ -72,7 +72,7 @@ inquirer
     console.log("data.license value: " + data.license);
         if (data.license === true){
             console.log("in licencinsg code");
-            stream.write("<img src=\""+ 'https://img.shields.io/badge/License-${data.license}-blue\"' +" alt=badge>\n\n");
+            stream.write("<img src=\""+ 'https://img.shields.io/badge/License-${data.license}-blue\"' +" alt=\"badge\">\n\n");
         }
 
     stream.write("# Contributors" + '\n'+ data.contributing + '\n\n');
@@ -89,7 +89,7 @@ inquirer
             // create new user and profile
             const user = response.data;
             console.log("user HTML URL: " + user.html_url);
-            const githubProfile = "<a href=\"" +user.html_url+ "\"> Github Profile: " + user.login + "</a>"+ "\n\n" + "<img src=\"" + user.avatar_url + "\" alt=Github profile picture width=150>";
+            const githubProfile = "<a href=\"" +user.html_url+ "\"> Github Profile: " + user.login + "</a>"+ "\n\n" + "<img src=\"" + user.avatar_url + "\" alt=\"Github profile picture\" width=\"150\">";
             console.log("githubProfile: " + githubProfile);
             console.log("Email: " + user.email);
             // append profile 

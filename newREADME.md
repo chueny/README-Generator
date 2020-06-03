@@ -1,26 +1,26 @@
 # README Generator
  
 # Description
-This command line application generates a README for Github.
+This command line interface application generates a README file for GitHub
  
 # Installation
-run npm install
+Run npm install
 
 # Usuage
-None provided
+After cloning, make sure to run npm install
 
 # Licensing
-<img src="https://img.shields.io/badge/License-${data.license}-blue" alt=badge>
+<img src="https://img.shields.io/badge/License-${data.license}-blue" alt="badge">
 
 # Contributors
-no guidelines available for contribution
+Feel free to modify and use this file as you pleased
 
 # Tests
-NOPE
+No tests available
 
 # Questions
 
 
  If you have any questions about this age, contact me here:<a href="https://github.com/chueny"> Github Profile: chueny</a>
 
-<img src="https://avatars1.githubusercontent.com/u/17972802?v=4" alt=Github profile picture width=150>
+<img src="https://avatars1.githubusercontent.com/u/17972802?v=4" alt="Github profile picture" width="150">
